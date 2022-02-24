@@ -22,4 +22,46 @@ body {
   font-size: 14px;
   color: var(--text-mainColor);
 }
+
+.header {
+  height: 103px;
+  background-color: #191919;
+}
+.header__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: 63px;
+  width: 63px;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.navbar {
+  width: 670px;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-item {
+  text-decoration: none;
+  color: var(--text-mainColor);
+}
+
+.button {
+  width: 158px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--text-blackColor);
+  background: var(--gold-color);
+}
+.button:hover {
+  cursor: pointer;
 }
