@@ -1,6 +1,25 @@
+:root {
+  --text-mainColor: #FFFFFF;
+  --text-blackColor: #191919;
+  --gold-color: linear-gradient(90deg, #C1AD64 1.88%, #A98343 35.61%, #A27C3D 54.52%, #C4B067 87.74%);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-mainColor);
+}
 }
