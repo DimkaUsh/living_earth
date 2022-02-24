@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  width: 1170px;
   height: 100%;
   margin: 0 auto;
 }
@@ -52,6 +52,36 @@ body {
 .navbar-item {
   text-decoration: none;
   color: var(--text-mainColor);
+}
+
+.title {
+  width: 398px;
+  margin: 0 auto;
+  font-family: "Cormorant Garamond", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 47px;
+  background-image: var(--gold-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero {
+  height: 692px;
+  padding-top: 103px;
+  text-align: center;
+  background: url(../assets/images/bg_hero.png) center center/cover no-repeat;
+}
+.hero__desc {
+  width: 400px;
+  margin: 18px auto 24px;
+  line-height: 16px;
+}
+
+.diwider {
+  height: 25px;
+  background: linear-gradient(90deg, #C1AD64 1.88%, #A98343 35.61%, #A27C3D 54.52%, #C4B067 87.74%);
 }
 
 .button {
